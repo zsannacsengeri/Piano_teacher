@@ -1,0 +1,377 @@
+
+
+nav {
+  position: relative;
+  margin-bottom: -105px;
+  z-index: 1;
+
+
+}
+
+@media screen and (max-width: 500px) {
+     img { max-width: 100%; height: auto; }
+
+  }
+
+.style-1 {
+	text-align: center;
+  margin-top: auto;
+}
+.btn{
+  color: white;
+  background: none;
+  text-decoration:none;
+  text-transform:uppercase;
+  margin-left: 2%;
+  margin-top: 10px;
+
+}
+
+.btn:hover{
+
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+  color: #000;
+
+}
+video {
+  position: absolute;
+  width: 100%;
+  height: 710px;
+  object-fit: cover;
+  object-position: center 70%;
+  filter: contrast(175%) brightness(50%);
+
+
+}
+@media screen and (max-width: 500px){
+  video{
+    margin-top: -20px;
+
+
+  }
+}
+.overlay {
+  min-height: 104vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+          padding-bottom: 10px;
+}
+.overlay h2 {
+
+    color: #dce4ec;
+    font-weight: 600;
+    margin: 2rem 3rem 0;
+    mix-blend-mode: screen;
+    text-align: center;
+}
+@media screen and (max-width: 500px){
+  .overlay h2{
+    margin: -6rem 1.5rem 5rem;
+
+  }
+}
+.piano-text {
+ width: 490px;
+ height: auto;
+ white-space: pre-line;
+ margin-top: -65px;
+ margin-left: 100px;
+}
+@media screen and (max-width: 500px){
+  .piano-text{
+   margin-top: -50px;
+   margin-left: 5px;
+   margin-right: 0px;
+   width: 100%;
+   padding: 5%;
+   white-space: inherit;
+  }
+}
+
+.piano-main-foto {
+  width: 700px;
+  height: auto;
+  margin-left: 740px;
+  margin-top: -495px;
+  white-space: pre-line;
+
+
+}
+@media screen and (max-width: 500px) {
+     .piano-main-foto {
+       width: 100%;
+       margin: 0;
+
+     }
+
+  }
+  .laptop-all {
+    width: 490px;
+    height: auto;
+    margin-left: 850px;
+    margin-top: 40px;
+
+  }
+  @media screen and (max-width:500px){
+    .laptop-all{
+      margin: 0;
+      width: 100%;
+      padding: 5%;
+      margin-top: 5px;
+    }
+  }
+  .laptop{
+  width: 740px;
+  height: 400px;
+  margin-top: -350px;
+  }
+@media screen and (max-width:500px){
+
+  .laptop {
+    height: auto;
+    margin: 0;
+  }
+}
+.why-part{
+  width: 490px;
+  height: auto;
+  white-space: pre-line;
+  margin-left: 100px;
+  margin-top: 45px;
+}
+@media screen and (max-width:500px){
+ .why-part{
+   margin-left: 5px;
+   margin-right: 0px;
+   margin-top: 10px;
+   width: 100%;
+   padding: 5%;
+   white-space: inherit;
+ }
+
+}
+.why-photo{
+  width: 700px;
+  height: 415px;
+  margin-left: 740px;
+  margin-top: -390px;
+}
+
+@media screen and (max-width:500px){
+
+  .why-photo{
+    width: 100%;
+    height: 250px;
+    margin: 0;
+  }
+}
+
+.best {
+  margin-top: 70px;
+  text-align: center;
+  height: 150px;
+}
+#method {
+background-color: #FAEEE0;
+filter: brightness(85%);
+padding-top: 4%;
+margin:5px;
+
+font-family: 'Benne', serif;
+font-size: 12px;
+color:black;
+margin-top: -15px;
+}
+
+.method-text {
+
+line-height: 1.4;
+text-align: center;
+}
+
+.method-image {
+width: 8%;
+border-radius: 100%;
+margin: 3%;
+}
+/* Pricing */
+
+.piano-pricing-container {
+  padding: 50px 5px;
+  margin-top: 2%;
+}
+
+.piano-pricing-title {
+  font-size: 32px;
+  text-align: center;
+}
+
+.piano-pricing-subtitle {
+  font-size: 16px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.piano-three-pricing-container {
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+@media (min-width: 550px) {
+  .piano-three-pricing-container {
+    flex-direction: row;
+  }
+}
+
+.piano-indiv-pricing-container {
+  margin: 1%;
+  width: 98%;
+  background-color: #5E8B7E;
+}
+
+@media (min-width: 550px) {
+  .piano-indiv-pricing-container {
+    margin: 1%;
+    width: 30%;
+  }
+}
+
+.piano-indiv-pricing-header {
+  align-items: center;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.piano-indiv-pricing-header-content {
+  position: absolute;
+}
+
+.piano-indiv-pricing-title {
+  font-size: 30px;
+}
+
+.piano-indiv-pricing-details {
+  background-color: #efefef;
+  border: 1px solid #BEE5D3;
+  line-height: 1.4;
+  margin: 0;
+  min-height: 50px;
+  padding: 20px;
+}
+.gift-section {
+  width: 490px;
+  height: auto;
+  margin-left: 850px;
+  margin-top: 50px;
+  white-space: pre-line;
+}
+@media screen and (max-width: 500px){
+
+.gift-section {
+  margin-top: auto;
+  margin-left: 5px;
+  margin-right: 0px;
+  width: 100%;
+  padding: 5%;
+  white-space: inherit;
+
+}
+}
+
+.valami {
+  width: 740px;
+  height: 400px;
+  margin-top: -390px;
+}
+@media screen and (max-width: 500px){
+.valami {
+  width: auto;
+  height: 250px;
+  margin: 0;
+
+}
+}
+footer {
+    padding-top: 40px;
+    background-color: #efefef;
+    color: #000;
+    text-align: center;
+    height: 450px;
+    margin-bottom: -40px;
+  }
+  @media screen and (max-width: 500px){
+    footer{
+      height: 700px;
+    }
+  }
+  .piano-stores-sub{
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 140px;
+  }
+  .piano-stores {
+  text-align: left;
+  white-space: inherit;
+  font-style: normal;
+  margin-top: 20px;
+  }
+
+.stores {
+  color: black;
+  margin-left: 100px;
+  margin-top: ;
+
+}
+@media screen and (max-width: 500px){
+  .piano-stores {
+    margin-top: -70px;
+    margin-left: -70px;
+  }
+}
+.stores:hover{
+  text-decoration: none;
+  color: green;
+}
+.contact-1 {
+  margin-left: -20px;
+  margin-top: -160px;
+}
+@media screen and (max-width: 500px){
+  .contact-1{
+    margin-top: 30px;
+  }
+}
+
+
+.foto {
+ width: 200px;
+ height: 200px;
+ margin-left: 890px;
+ margin-top: -130px;
+}
+@media screen and (max-width: 500px){
+  .foto{
+    margin-top: auto;
+    margin-left: 30px;
+  }
+}
+
+a {
+  margin-top: 50px;
+}
